@@ -1,0 +1,74 @@
+/*THIS IS MY CSS CODE- IT STYLES MY PAGE. FOR EXAMPLE, MY RULE TARGETING MAIN DOES MANY THINGS TO THE MAIN PART OF MY WEBPAGE, INCLUDING ADDING COLORS TO THE BACKGROUND, TEXT, AND BORDER, AS WELL AS DEFINING CERTAIN OTHER PROPERTIES*/
+{box-sizing: border-box;
+}
+/*STYLES TOP OF PAGE, HEADER AREA*/
+.title {
+  border: 7px solid black;
+  background-color: greenyellow;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  font-size: 24px;
+  letter-spacing: 5px;
+  text-align: center;
+  color: rgb(25, 35, 85);
+  text-transform: uppercase;
+  text-shadow: -1px 1px darkgreen, 1px -1px darkblue
+}
+/*MAIN COLOR SCHEME & FORMATTING*/
+main {
+  border: 10px solid greenyellow;
+  background-color: darkgreen;
+  color: aquamarine;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 50px;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
+}
+footer {
+  border: 5px solid black;
+  background-color: darkgreen;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: underline;
+}
+.line {
+  border: 5px solid black;
+}
+h2 {
+  color: rgb(25, 35, 85);
+  text-decoration: underline;
+  text-shadow: -1px 1px 0 white, 1px -1px white;
+}
+#contact {
+  text-decoration: underline;
+}
+/*STYLE IMAGE, SETS IMAGE SIZE, ROUND*/
+img {
+  width: 300px;
+  border-radius: 50%;
+  padding-top: 10px;
+}
+.container {
+  background-color: turquoise;
+  border: 2px solid black;
+  margin: 1px;
+  height: 320px;
+}
+#contact ul {
+  list-style: none;
+  text-align: left;
+}
+a:visited {
+  text-decoration: none;
+  color: greenyellow;
+}
+hr {
+  background-color: black;
+  color: black;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+h3 {
+  color: white;
+}
